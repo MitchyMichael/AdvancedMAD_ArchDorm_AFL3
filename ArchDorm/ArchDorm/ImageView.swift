@@ -11,7 +11,7 @@ struct ImageView: View {
     var image: Image
     
     var body: some View {
-        Image("WhiteApart")
+        image
             .frame(width: 350)
             
             

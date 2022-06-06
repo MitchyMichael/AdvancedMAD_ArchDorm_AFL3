@@ -8,7 +8,13 @@
 import SwiftUI
 
 struct DormDetail: View {
+    @EnvironmentObject var modelData: ModelData
     var dorm: Dorm
+    
+    var dormIndex: Int {
+        modelData.dorms.firstIndex(where: { $0.id == dorm.id })!
+    }
+    
     var body: some View {
         ScrollView{
             ImageView(image: dorm.image)
@@ -16,11 +22,15 @@ struct DormDetail: View {
                 .offset(y: -100)
                 .padding(.bottom, -100)
             VStack(alignment: .leading){
-                HStack{
+               HStack{
                     VStack (alignment: .leading){
-                        Text(dorm.name)
-                            .font(.title)
-                            .fontWeight(.bold)
+                        HStack{
+                            Text(dorm.name)
+                                .font(.title)
+                                .fontWeight(.bold)
+                            FavoriteButton(isSet: $modelData.dorms[dormIndex].isFavorite)
+                        }
+                        
                         Text(dorm.address)
                     }
                     Spacer()
@@ -90,7 +100,9 @@ struct DormDetail: View {
 }
 
 struct DormDetail_Previews: PreviewProvider {
+    static let modelData = ModelData()
     static var previews: some View {
-        DormDetail(dorm: dorms[1])
+        DormDetail(dorm: ModelData().dorms[0])
+            .environmentObject(modelData)
     }
 }

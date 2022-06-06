@@ -1,4 +1,9 @@
 import Foundation
+import Combine
+
+final class ModelData: ObservableObject {
+    @Published var dorms: [Dorm] = load("DormData.json")
+}
 
 var dorms: [Dorm] = load("DormData.json")
 

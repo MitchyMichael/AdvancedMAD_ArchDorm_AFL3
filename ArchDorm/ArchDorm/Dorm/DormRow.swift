@@ -28,6 +28,7 @@ struct DormRow: View {
 }
 
 struct DormRow_Previews: PreviewProvider {
+    static var dorms = ModelData().dorms
     static var previews: some View {
         Group{
             DormRow(dorm: dorms[0])

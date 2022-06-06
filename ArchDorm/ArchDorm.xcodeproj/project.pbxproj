@@ -14,6 +14,7 @@
 		3A8D9223284E15220038B4AE /* DormData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A8D9222284E15220038B4AE /* DormData.json */; };
 		3A8D9227284E19220038B4AE /* DormList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D9226284E19220038B4AE /* DormList.swift */; };
 		3A8D9229284E1B940038B4AE /* DormDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D9228284E1B940038B4AE /* DormDetail.swift */; };
+		3A8D922E284E55110038B4AE /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D922D284E55110038B4AE /* FavoriteButton.swift */; };
 		3AAA0A79284D927200BAFEE6 /* ArchDormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA0A78284D927200BAFEE6 /* ArchDormApp.swift */; };
 		3AAA0A7B284D927200BAFEE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA0A7A284D927200BAFEE6 /* ContentView.swift */; };
 		3AAA0A7D284D927400BAFEE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA0A7C284D927400BAFEE6 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		3A8D9222284E15220038B4AE /* DormData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DormData.json; sourceTree = "<group>"; };
 		3A8D9226284E19220038B4AE /* DormList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormList.swift; sourceTree = "<group>"; };
 		3A8D9228284E1B940038B4AE /* DormDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormDetail.swift; sourceTree = "<group>"; };
+		3A8D922D284E55110038B4AE /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoriteButton.swift; path = ArchDorm/FavoriteButton.swift; sourceTree = SOURCE_ROOT; };
 		3AAA0A75284D927200BAFEE6 /* ArchDorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchDorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAA0A78284D927200BAFEE6 /* ArchDormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchDormApp.swift; sourceTree = "<group>"; };
 		3AAA0A7A284D927200BAFEE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				3A8D922B284E1EEA0038B4AE /* Model */,
 				3A8D922A284E1ED00038B4AE /* Dorm */,
 				3AAA0A78284D927200BAFEE6 /* ArchDormApp.swift */,
+				3A8D922D284E55110038B4AE /* FavoriteButton.swift */,
 				3AAA0A7A284D927200BAFEE6 /* ContentView.swift */,
 				3A8D9210284DE4450038B4AE /* ImageView.swift */,
 				3AAA0A7C284D927400BAFEE6 /* Assets.xcassets */,
@@ -189,6 +192,7 @@
 				3A8D921F284E0F1F0038B4AE /* DormRow.swift in Sources */,
 				3A8D9229284E1B940038B4AE /* DormDetail.swift in Sources */,
 				3A8D9211284DE4450038B4AE /* ImageView.swift in Sources */,
+				3A8D922E284E55110038B4AE /* FavoriteButton.swift in Sources */,
 				3AAA0A7B284D927200BAFEE6 /* ContentView.swift in Sources */,
 				3A8D921B284E0C1E0038B4AE /* Dorm.swift in Sources */,
 				3AAA0A79284D927200BAFEE6 /* ArchDormApp.swift in Sources */,

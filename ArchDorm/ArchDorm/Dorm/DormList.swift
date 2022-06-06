@@ -8,17 +8,30 @@
 import SwiftUI
 
 struct DormList: View {
-    @State private var showFavoritesOnly = false
+    @EnvironmentObject var modelData: ModelData
+    @State private var showFavoritesOnly = true
+    
+    var filteredDorm:[Dorm]{
+        modelData.dorms.filter { dorm in
+            (!showFavoritesOnly || dorm.isFavorite)
+            
+        }
+    }
+    
     var body: some View {
         NavigationView{
-            List(dorms) { dorm in
-                NavigationLink{
-                    DormDetail(dorm: dorm)
-                } label: {
-                    DormRow(dorm: dorm)
+            List{
+                Toggle(isOn: $showFavoritesOnly){
+                    Text("Favorites Only")
                 }
                 
-           
+                ForEach(filteredDorm) { dorm in
+                    NavigationLink{
+                        DormDetail(dorm: dorm)
+                    } label: {
+                        DormRow(dorm: dorm)
+                    }
+                }
             }
             .navigationTitle("Dorms")
         }
@@ -29,5 +42,6 @@ struct DormList: View {
 struct DormList_Previews: PreviewProvider {
     static var previews: some View {
         DormList()
+            .environmentObject(ModelData())
     }
 }
