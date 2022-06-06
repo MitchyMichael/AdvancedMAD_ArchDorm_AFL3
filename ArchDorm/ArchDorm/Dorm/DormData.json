@@ -35,7 +35,7 @@
         "address": "PJ7M+G2F Universitas Ciputra, RW.1, Made, Sambikerep, Surabaya City, East Java",
         "details": "Mengusung konsep “A dream home for millennials” , Cornell and Denver Apartment memberikan semua yang terbaik untuk kebutuhan milenial yang serba praktis dan nyaman. Dilengkapi dengan 28 fasilitas yang lengkap untuk menunjang kehidupan modern yang aman. Cornell & Denver Apartment ini terletak di lokasi strategis, yaitu di dalam CitraLand CBD yang berada tepat di persimpangan JLLB dan Radial Road, yang akan menjadi pusat pendidikan, lifestyle, entertainment, dan business.",
         "facility": "a",
-        "imageName": "LuxApart",
+        "imageName": "room1",
         "isFeatured": true,
         "isFavorite": false,
         "coordinates": {
@@ -50,7 +50,7 @@
         "address": "PJ7M+G2F Universitas Ciputra, RW.1, Made, Sambikerep, Surabaya City, East Java",
         "details": "Mengusung konsep “A dream home for millennials” , Cornell and Denver Apartment memberikan semua yang terbaik untuk kebutuhan milenial yang serba praktis dan nyaman. Dilengkapi dengan 28 fasilitas yang lengkap untuk menunjang kehidupan modern yang aman. Cornell & Denver Apartment ini terletak di lokasi strategis, yaitu di dalam CitraLand CBD yang berada tepat di persimpangan JLLB dan Radial Road, yang akan menjadi pusat pendidikan, lifestyle, entertainment, dan business.",
         "facility": "a",
-        "imageName": "LuxApart",
+        "imageName": "room2",
         "isFeatured": true,
         "isFavorite": false,
         "coordinates": {
@@ -59,4 +59,34 @@
         }
         
     },
+    {
+        "id": 5,
+        "name": "Waterfront Dorm 2",
+        "address": "PJ7M+G2F Universitas Ciputra, RW.1, Made, Sambikerep, Surabaya City, East Java",
+        "details": "Mengusung konsep “A dream home for millennials” , Cornell and Denver Apartment memberikan semua yang terbaik untuk kebutuhan milenial yang serba praktis dan nyaman. Dilengkapi dengan 28 fasilitas yang lengkap untuk menunjang kehidupan modern yang aman. Cornell & Denver Apartment ini terletak di lokasi strategis, yaitu di dalam CitraLand CBD yang berada tepat di persimpangan JLLB dan Radial Road, yang akan menjadi pusat pendidikan, lifestyle, entertainment, dan business.",
+        "facility": "a",
+        "imageName": "room3",
+        "isFeatured": true,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        }
+        
+    },
+    {
+        "id": 6,
+        "name": "Waterfront Dorm 3",
+        "address": "PJ7M+G2F Universitas Ciputra, RW.1, Made, Sambikerep, Surabaya City, East Java",
+        "details": "Mengusung konsep “A dream home for millennials” , Cornell and Denver Apartment memberikan semua yang terbaik untuk kebutuhan milenial yang serba praktis dan nyaman. Dilengkapi dengan 28 fasilitas yang lengkap untuk menunjang kehidupan modern yang aman. Cornell & Denver Apartment ini terletak di lokasi strategis, yaitu di dalam CitraLand CBD yang berada tepat di persimpangan JLLB dan Radial Road, yang akan menjadi pusat pendidikan, lifestyle, entertainment, dan business.",
+        "facility": "a",
+        "imageName": "room4",
+        "isFeatured": true,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        }
+        
+    }
 ]
