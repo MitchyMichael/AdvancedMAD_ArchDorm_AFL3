@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct DormList: View {
+    @State private var showFavoritesOnly = false
     var body: some View {
         NavigationView{
             List(dorms) { dorm in
                 NavigationLink{
-                    DormDetail()
+                    DormDetail(dorm: dorm)
                 } label: {
                     DormRow(dorm: dorm)
                 }

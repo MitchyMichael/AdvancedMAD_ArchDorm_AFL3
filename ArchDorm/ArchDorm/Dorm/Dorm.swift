@@ -15,6 +15,7 @@ struct Dorm: Hashable, Codable, Identifiable{
     var address: String
     var details: String
     var facility: String
+    var isFavorite: Bool
     
     private var imageName: String
     var image: Image {

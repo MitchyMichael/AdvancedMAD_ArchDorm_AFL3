@@ -17,6 +17,11 @@ struct DormRow: View {
                 .frame(width: 50, height: 50)
             Text(dorm.name)
             Spacer()
+            
+            if dorm.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            }
         }
         
     }

@@ -8,19 +8,20 @@
 import SwiftUI
 
 struct DormDetail: View {
+    var dorm: Dorm
     var body: some View {
         ScrollView{
-            ImageView()
+            ImageView(image: dorm.image)
                 .frame(width: UIScreen.main.bounds.width)
-                .offset(y: -50)
-                .padding(.bottom, -50)
+                .offset(y: -100)
+                .padding(.bottom, -100)
             VStack(alignment: .leading){
                 HStack{
                     VStack (alignment: .leading){
-                        Text("Denver Apartment")
+                        Text(dorm.name)
                             .font(.title)
                             .fontWeight(.bold)
-                        Text("PJ7M+G2F Universitas Ciputra, RW.1, Made, Sambikerep, Surabaya City, East Java")
+                        Text(dorm.address)
                     }
                     Spacer()
                 }
@@ -56,9 +57,7 @@ struct DormDetail: View {
                         
                     }
                     VStack(alignment: .leading){
-                        Text("Mengusung konsep “A dream home for millennials” , Cornell and Denver Apartment memberikan semua yang terbaik untuk kebutuhan milenial yang serba praktis dan nyaman. Dilengkapi dengan 28 fasilitas yang lengkap untuk menunjang kehidupan modern yang aman. ")
-                        Text("")
-                        Text("Cornell & Denver Apartment ini terletak di lokasi strategis, yaitu di dalam CitraLand CBD yang berada tepat di persimpangan JLLB dan Radial Road, yang akan menjadi pusat pendidikan, lifestyle, entertainment, dan business.")
+                        Text(dorm.details)
                             
                     }
                     .padding(.leading)
@@ -83,13 +82,15 @@ struct DormDetail: View {
                 
             }
         }
-        
+        .navigationTitle(dorm.name)
+        .navigationBarTitleDisplayMode(.inline)
+
         
     }
 }
 
 struct DormDetail_Previews: PreviewProvider {
     static var previews: some View {
-        DormDetail()
+        DormDetail(dorm: dorms[1])
     }
 }
