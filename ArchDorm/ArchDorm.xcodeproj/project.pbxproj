@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A8D9211284DE4450038B4AE /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D9210284DE4450038B4AE /* ImageView.swift */; };
+		3A8D9217284E04CB0038B4AE /* DormRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D9216284E04CB0038B4AE /* DormRow.swift */; };
 		3AAA0A79284D927200BAFEE6 /* ArchDormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA0A78284D927200BAFEE6 /* ArchDormApp.swift */; };
 		3AAA0A7B284D927200BAFEE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA0A7A284D927200BAFEE6 /* ContentView.swift */; };
 		3AAA0A7D284D927400BAFEE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA0A7C284D927400BAFEE6 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A8D9210284DE4450038B4AE /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		3A8D9216284E04CB0038B4AE /* DormRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormRow.swift; sourceTree = "<group>"; };
 		3AAA0A75284D927200BAFEE6 /* ArchDorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchDorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAA0A78284D927200BAFEE6 /* ArchDormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchDormApp.swift; sourceTree = "<group>"; };
 		3AAA0A7A284D927200BAFEE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,7 +59,9 @@
 			children = (
 				3AAA0A78284D927200BAFEE6 /* ArchDormApp.swift */,
 				3AAA0A7A284D927200BAFEE6 /* ContentView.swift */,
+				3A8D9216284E04CB0038B4AE /* DormRow.swift */,
 				3AAA0A86284D94A200BAFEE6 /* SplashScreenView.swift */,
+				3A8D9210284DE4450038B4AE /* ImageView.swift */,
 				3AAA0A7C284D927400BAFEE6 /* Assets.xcassets */,
 				3AAA0A7E284D927400BAFEE6 /* Preview Content */,
 			);
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8D9211284DE4450038B4AE /* ImageView.swift in Sources */,
+				3A8D9217284E04CB0038B4AE /* DormRow.swift in Sources */,
 				3AAA0A7B284D927200BAFEE6 /* ContentView.swift in Sources */,
 				3AAA0A79284D927200BAFEE6 /* ArchDormApp.swift in Sources */,
 				3AAA0A87284D94A200BAFEE6 /* SplashScreenView.swift in Sources */,
