@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack{
+        VStack(alignment: .leading){
             HStack{
                 VStack (alignment: .leading){
                     Text("Denver Apartment")
@@ -23,22 +23,58 @@ struct ContentView: View {
             
             Divider()
             
-            HStack{
-                Text("Facility")
-                    .font(.headline)
-                Spacer()
-                
+            VStack(alignment: .leading){
+                HStack{
+                    Text("Facility")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                    Spacer()
+                    
+                }
+                VStack(alignment: .leading){
+                    Text("- Orthopedic Hospital")
+                    Text("- Ciputra University")
+                    Text("- Banks")
+                    Text("- Church")
+                    Text("- Club House")
+                }
+                .padding(.leading)
             }
             .padding()
             
-            Text("")
+            VStack(alignment: .leading){
+                HStack{
+                    Text("Details")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                    Spacer()
+                    
+                }
+                VStack(alignment: .leading){
+                    Text("Mengusung konsep “A dream home for millennials” , Cornell and Denver Apartment memberikan semua yang terbaik untuk kebutuhan milenial yang serba praktis dan nyaman. Dilengkapi dengan 28 fasilitas yang lengkap untuk menunjang kehidupan modern yang aman. ")
+                    Text("")
+                    Text("Cornell & Denver Apartment ini terletak di lokasi strategis, yaitu di dalam CitraLand CBD yang berada tepat di persimpangan JLLB dan Radial Road, yang akan menjadi pusat pendidikan, lifestyle, entertainment, dan business.")
+                        
+                }
+                .padding(.leading)
+            }
+            .padding()
             
-            Text("Orthopedic Hospital
-                 Ciputra University
-                 Banks
-                 Church
-                 Club House")
-            
+            VStack(alignment: .leading){
+                HStack{
+                    Text("Dorm Type")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                    Spacer()
+                    
+                }
+                HStack(){
+                    Text("Residence Halls")
+                    
+                }
+                .padding(.leading)
+            }
+            .padding()
             
         }
         
