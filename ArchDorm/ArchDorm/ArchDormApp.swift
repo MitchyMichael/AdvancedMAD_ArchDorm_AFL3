@@ -11,7 +11,7 @@ import SwiftUI
 struct ArchDormApp: App {
     var body: some Scene {
         WindowGroup {
-            SplashScreen()
+            SplashScreenView()
         }
     }
 }

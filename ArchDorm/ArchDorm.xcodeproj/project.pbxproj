@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3AAA0A79284D927200BAFEE6 /* ArchDormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA0A78284D927200BAFEE6 /* ArchDormApp.swift */; };
-		3AAA0A7B284D927200BAFEE6 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA0A7A284D927200BAFEE6 /* SplashScreen.swift */; };
+		3AAA0A7B284D927200BAFEE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA0A7A284D927200BAFEE6 /* ContentView.swift */; };
 		3AAA0A7D284D927400BAFEE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA0A7C284D927400BAFEE6 /* Assets.xcassets */; };
 		3AAA0A80284D927400BAFEE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA0A7F284D927400BAFEE6 /* Preview Assets.xcassets */; };
+		3AAA0A87284D94A200BAFEE6 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA0A86284D94A200BAFEE6 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3AAA0A75284D927200BAFEE6 /* ArchDorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchDorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAA0A78284D927200BAFEE6 /* ArchDormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchDormApp.swift; sourceTree = "<group>"; };
-		3AAA0A7A284D927200BAFEE6 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		3AAA0A7A284D927200BAFEE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3AAA0A7C284D927400BAFEE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AAA0A7F284D927400BAFEE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AAA0A86284D94A200BAFEE6 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				3AAA0A78284D927200BAFEE6 /* ArchDormApp.swift */,
-				3AAA0A7A284D927200BAFEE6 /* SplashScreen.swift */,
+				3AAA0A7A284D927200BAFEE6 /* ContentView.swift */,
+				3AAA0A86284D94A200BAFEE6 /* SplashScreenView.swift */,
 				3AAA0A7C284D927400BAFEE6 /* Assets.xcassets */,
 				3AAA0A7E284D927400BAFEE6 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AAA0A7B284D927200BAFEE6 /* SplashScreen.swift in Sources */,
+				3AAA0A7B284D927200BAFEE6 /* ContentView.swift in Sources */,
 				3AAA0A79284D927200BAFEE6 /* ArchDormApp.swift in Sources */,
+				3AAA0A87284D94A200BAFEE6 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
