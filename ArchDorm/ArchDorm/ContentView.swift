@@ -9,14 +9,37 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack{
-            Color.blue
-                .ignoresSafeArea()
-            Text("THIS IS SPLASH SCREEN")
-                .font(.title)
-                .fontWeight(.regular)
-                .foregroundColor(Color.white)
-                .padding()
+        VStack{
+            HStack{
+                VStack (alignment: .leading){
+                    Text("Denver Apartment")
+                        .font(.title)
+                        .fontWeight(.bold)
+                    Text("PJ7M+G2F Universitas Ciputra, RW.1, Made, Sambikerep, Surabaya City, East Java")
+                }
+                Spacer()
+            }
+            .padding()
+            
+            Divider()
+            
+            HStack{
+                Text("Facility")
+                    .font(.headline)
+                Spacer()
+                
+            }
+            .padding()
+            
+            Text("")
+            
+            Text("Orthopedic Hospital
+                 Ciputra University
+                 Banks
+                 Church
+                 Club House")
+            
+            
         }
         
     }
