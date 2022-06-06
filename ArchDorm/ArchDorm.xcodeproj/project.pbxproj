@@ -8,7 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3A8D9211284DE4450038B4AE /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D9210284DE4450038B4AE /* ImageView.swift */; };
-		3A8D9217284E04CB0038B4AE /* DormRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D9216284E04CB0038B4AE /* DormRow.swift */; };
+		3A8D921B284E0C1E0038B4AE /* Dorm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D921A284E0C1E0038B4AE /* Dorm.swift */; };
+		3A8D921D284E0D800038B4AE /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D921C284E0D800038B4AE /* ModelData.swift */; };
+		3A8D921F284E0F1F0038B4AE /* DormRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D921E284E0F1F0038B4AE /* DormRow.swift */; };
+		3A8D9223284E15220038B4AE /* DormData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A8D9222284E15220038B4AE /* DormData.json */; };
+		3A8D9227284E19220038B4AE /* DormList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D9226284E19220038B4AE /* DormList.swift */; };
+		3A8D9229284E1B940038B4AE /* DormDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D9228284E1B940038B4AE /* DormDetail.swift */; };
 		3AAA0A79284D927200BAFEE6 /* ArchDormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA0A78284D927200BAFEE6 /* ArchDormApp.swift */; };
 		3AAA0A7B284D927200BAFEE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA0A7A284D927200BAFEE6 /* ContentView.swift */; };
 		3AAA0A7D284D927400BAFEE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA0A7C284D927400BAFEE6 /* Assets.xcassets */; };
@@ -18,7 +23,12 @@
 
 /* Begin PBXFileReference section */
 		3A8D9210284DE4450038B4AE /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
-		3A8D9216284E04CB0038B4AE /* DormRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormRow.swift; sourceTree = "<group>"; };
+		3A8D921A284E0C1E0038B4AE /* Dorm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dorm.swift; sourceTree = "<group>"; };
+		3A8D921C284E0D800038B4AE /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		3A8D921E284E0F1F0038B4AE /* DormRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormRow.swift; sourceTree = "<group>"; };
+		3A8D9222284E15220038B4AE /* DormData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DormData.json; sourceTree = "<group>"; };
+		3A8D9226284E19220038B4AE /* DormList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormList.swift; sourceTree = "<group>"; };
+		3A8D9228284E1B940038B4AE /* DormDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormDetail.swift; sourceTree = "<group>"; };
 		3AAA0A75284D927200BAFEE6 /* ArchDorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchDorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAA0A78284D927200BAFEE6 /* ArchDormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchDormApp.swift; sourceTree = "<group>"; };
 		3AAA0A7A284D927200BAFEE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +48,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A8D922A284E1ED00038B4AE /* Dorm */ = {
+			isa = PBXGroup;
+			children = (
+				3A8D921A284E0C1E0038B4AE /* Dorm.swift */,
+				3A8D9222284E15220038B4AE /* DormData.json */,
+				3A8D921E284E0F1F0038B4AE /* DormRow.swift */,
+				3A8D9226284E19220038B4AE /* DormList.swift */,
+				3A8D9228284E1B940038B4AE /* DormDetail.swift */,
+			);
+			path = Dorm;
+			sourceTree = "<group>";
+		};
+		3A8D922B284E1EEA0038B4AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A8D921C284E0D800038B4AE /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A8D922C284E1EFA0038B4AE /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3AAA0A86284D94A200BAFEE6 /* SplashScreenView.swift */,
+			);
+			path = "Splash Screen";
+			sourceTree = "<group>";
+		};
 		3AAA0A6C284D927100BAFEE6 = {
 			isa = PBXGroup;
 			children = (
@@ -57,10 +95,11 @@
 		3AAA0A77284D927200BAFEE6 /* ArchDorm */ = {
 			isa = PBXGroup;
 			children = (
+				3A8D922C284E1EFA0038B4AE /* Splash Screen */,
+				3A8D922B284E1EEA0038B4AE /* Model */,
+				3A8D922A284E1ED00038B4AE /* Dorm */,
 				3AAA0A78284D927200BAFEE6 /* ArchDormApp.swift */,
 				3AAA0A7A284D927200BAFEE6 /* ContentView.swift */,
-				3A8D9216284E04CB0038B4AE /* DormRow.swift */,
-				3AAA0A86284D94A200BAFEE6 /* SplashScreenView.swift */,
 				3A8D9210284DE4450038B4AE /* ImageView.swift */,
 				3AAA0A7C284D927400BAFEE6 /* Assets.xcassets */,
 				3AAA0A7E284D927400BAFEE6 /* Preview Content */,
@@ -136,6 +175,7 @@
 			files = (
 				3AAA0A80284D927400BAFEE6 /* Preview Assets.xcassets in Resources */,
 				3AAA0A7D284D927400BAFEE6 /* Assets.xcassets in Resources */,
+				3A8D9223284E15220038B4AE /* DormData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,11 +186,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8D921F284E0F1F0038B4AE /* DormRow.swift in Sources */,
+				3A8D9229284E1B940038B4AE /* DormDetail.swift in Sources */,
 				3A8D9211284DE4450038B4AE /* ImageView.swift in Sources */,
-				3A8D9217284E04CB0038B4AE /* DormRow.swift in Sources */,
 				3AAA0A7B284D927200BAFEE6 /* ContentView.swift in Sources */,
+				3A8D921B284E0C1E0038B4AE /* Dorm.swift in Sources */,
 				3AAA0A79284D927200BAFEE6 /* ArchDormApp.swift in Sources */,
 				3AAA0A87284D94A200BAFEE6 /* SplashScreenView.swift in Sources */,
+				3A8D921D284E0D800038B4AE /* ModelData.swift in Sources */,
+				3A8D9227284E19220038B4AE /* DormList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
